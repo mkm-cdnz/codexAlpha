@@ -1,0 +1,278 @@
+{
+  "profile": {
+    "name": "Matt Millar",
+    "headline": "Technical Business Analyst | Data & Insights",
+    "summary": "Delivery-centric Technical BA who clarified needs, ran workshops, and turned requirements into tidy delivery and plain-English outcomes. Strong with Excel/Power BI and documentation; built depth in stakeholder comms and BAU support.",
+    "links": {
+      "email": "matt@mattmillar.co.nz",
+      "phone": "+64 22 459 6484",
+      "linkedin": "https://www.linkedin.com/in/matt-millar-3a4892121/",
+      "github": "https://github.com/mkm-cdnz/"
+    }
+  },
+
+  "work_history": [
+    {
+      "company": "Consulting / Freelance",
+      "start_date": "2024-07",
+      "end_date": null,
+      "titles": [
+        "Technical Documentation",
+        "WordPress Consultant",
+        "Training/Workshops",
+        "Video Editor"
+      ],
+      "bullets": [
+        {
+          "text": "Turned high-level asks into concise specifications, SOPs, and how-to guides that reduced rework and accelerated delivery for small business and internal stakeholders.",
+          "themes": ["requirements", "documentation", "process_mapping", "stakeholder_comms"]
+        },
+        {
+          "text": "Designed and led in-person and online workshops on generative AI opportunities, risks, and guardrails using Miro and Google Slides; improved understanding and practical adoption across mixed audiences.",
+          "themes": ["workshops", "training_enablement", "presentation_storytelling", "governance"]
+        },
+        {
+          "text": "Produced music video content and visual assets using Kdenlive; planned storyboards and executed edits to brief, ensuring clear narrative flow and on-brand delivery.",
+          "themes": ["creative_production", "presentation_storytelling"]
+        },
+        {
+          "text": "Built and maintained WordPress sites including theme setup, UX/content structure, SEO basics, and CMS blog formatting to improve clarity and discoverability.",
+          "themes": ["web_content", "ux_content", "seo_basics"]
+        }
+      ],
+      "achievements": [
+        {
+          "text": "Created a visually engaging GenAI training series with practical exercises and take-home guides; boosted confidence and safe adoption among non-technical staff.",
+          "themes": ["training_enablement", "stakeholder_comms"]
+        }
+      ],
+      "skills_and_competencies": [
+        "Stakeholder interviews",
+        "Workshops & facilitation",
+        "Requirements & user stories",
+        "Process mapping / SOPs",
+        "Plain-language communications",
+        "UAT support",
+        "Presentation storytelling",
+        "Content design"
+      ],
+      "tools_and_tech": [
+        "Miro",
+        "Google Slides",
+        "WordPress",
+        "Google Workspace",
+        "Kdenlive"
+      ],
+      "industry_domains": [
+        "Technology/Software",
+        "Professional Services"
+      ]
+    },
+    {
+      "company": "ClearPoint",
+      "start_date": "2022-08",
+      "end_date": "2024-06",
+      "titles": [
+        "Technical Business Analyst",
+        "Product Owner",
+        "Scrum Master",
+        "QA"
+      ],
+      "bullets": [
+        {
+          "text": "Converted proposals into detailed specifications with user stories, acceptance criteria, and assumptions; aligned business and engineering through workshops and WIPs.",
+          "themes": ["requirements", "workshops", "delivery_cadence"]
+        },
+        {
+          "text": "Maintained delivery hygiene in Jira/Confluence, supported UAT and test planning, and produced decision-ready updates and decks for non-technical stakeholders.",
+          "themes": ["uat_testing", "documentation", "presentation_storytelling", "stakeholder_comms"]
+        },
+        {
+          "text": "Facilitated an ATS transition by defining a single source of truth, aligning ownership, and mapping handoffs to reduce ambiguity and improve reporting.",
+          "themes": ["process_mapping", "governance", "stakeholder_comms"]
+        },
+        {
+          "text": "Mapped an end-to-end hiring flow in Miro across teams and systems; clarified roles, approvals, and SLAs to decrease rework and speed up onboarding decisions.",
+          "themes": ["process_mapping", "workshops", "vendor_sla_coordination"]
+        }
+      ],
+      "achievements": [],
+      "skills_and_competencies": [
+        "Stakeholder facilitation",
+        "Requirements engineering",
+        "Backlog management",
+        "Delivery cadence (Scrum)",
+        "UAT/test support",
+        "Documentation (Confluence)",
+        "Change communications"
+      ],
+      "tools_and_tech": [
+        "Jira",
+        "Confluence",
+        "PowerPoint",
+        "Miro"
+      ],
+      "industry_domains": [
+        "Technology/Software",
+        "Consulting"
+      ]
+    },
+    {
+      "company": "Enstall",
+      "start_date": "2020-10",
+      "end_date": "2022-07",
+      "titles": [
+        "Operations & Logistics (Technical BA responsibilities)"
+      ],
+      "bullets": [
+        {
+          "text": "Built operational reporting for utilisation, maintenance, and procurement; supported weekly leadership reviews with clear summaries and SOPs.",
+          "themes": ["reporting_insights", "documentation", "process_mapping"]
+        },
+        {
+          "text": "Implemented a no-code WMS using AppSheet and Google Sheets to replace paper processes and standardise data capture.",
+          "themes": ["implementation_no_code", "process_improvement"]
+        },
+        {
+          "text": "Audited software/SaaS via interviews, surveys, and Workspace data extraction; visualised usage with Power BI treemaps and published a self-serve Google Sites dashboard for leadership.",
+          "themes": ["reporting_insights", "data_visualisation", "stakeholder_comms"]
+        },
+        {
+          "text": "Spearheaded forklift safety protocols (safety lights/lasers, pedestrian zones) and ran blameless post-mortems; maintained a spotless forklift safety record.",
+          "themes": ["health_safety", "continuous_improvement", "ops_impact"]
+        }
+      ],
+      "achievements": [
+        {
+          "text": "Google Data Studio fleet utilisation dashboard for a 20-vehicle fleet → helped cut maintenance turnaround by ~50% and improved weekly Ops visibility.",
+          "themes": ["reporting_insights", "data_visualisation", "ops_impact"]
+        },
+        {
+          "text": "No-code WMS (AppSheet + Sheets) replacing paper processes → 80%+ reduction in reporting time and errors with automated CFO reporting.",
+          "themes": ["implementation_no_code", "process_improvement", "ops_impact"]
+        }
+      ],
+      "skills_and_competencies": [
+        "Process mapping",
+        "SOP authoring",
+        "Reporting & insight",
+        "Change communications",
+        "Stakeholder communication",
+        "Health & Safety culture"
+      ],
+      "tools_and_tech": [
+        "Looker Studio (Google Data Studio)",
+        "Power BI",
+        "AppSheet",
+        "Google Sheets",
+        "Google Sites"
+      ],
+      "industry_domains": [
+        "Logistics/Supply Chain",
+        "Operations"
+      ]
+    }
+  ],
+
+  "skills": {
+    "analytics_bi": [
+      "Excel (PivotTables, XLOOKUP)",
+      "Power BI (Power Query, DAX – developing)",
+      "Looker Studio"
+    ],
+    "business_analysis_delivery": [
+      "Stakeholder interviews",
+      "Workshops & facilitation",
+      "Requirements & user stories",
+      "Process mapping / SOPs",
+      "UAT/test support",
+      "Plain-language communications",
+      "Delivery cadence (Scrum)",
+      "Change communications"
+    ],
+    "platforms_domains": [
+      "Jira",
+      "Confluence",
+      "HubSpot CRM",
+      "WMS/Inventory systems",
+      "Google Workspace",
+      "Microsoft 365"
+    ],
+    "presentation_enablement": [
+      "PowerPoint (storytelling; strong)",
+      "Miro (workshops)",
+      "Google Slides",
+      "Kdenlive"
+    ],
+    "no_code_low_code": [
+      "AppSheet",
+      "Airtable (familiar)"
+    ],
+    "scripting_querying": [
+      "SQL (beginner→intermediate)",
+      "Python (beginner)"
+    ]
+  },
+
+  "education": [
+    {
+      "institution": "Victoria University of Wellington",
+      "qualification": "BA & LLB (partial)",
+      "focus_areas": ["English Literature", "Media Studies", "Law"],
+      "year": null
+    },
+    {
+      "institution": "NPower Canada, Toronto",
+      "qualification": "Web & Mobile App Development",
+      "year": "2016"
+    }
+  ],
+
+  "certifications": [
+    { "name": "Forklift certification (ASWEFA)", "issuer": "ASWEFA" },
+    { "name": "Site Safe (Passport)", "issuer": "Site Safe" },
+    { "name": "First Aid", "issuer": "Approved NZ Provider" },
+    { "name": "COA / PSPLA Security", "issuer": "PSPLA" },
+    { "name": "MPI Biosecurity", "issuer": "MPI" },
+    { "name": "Certified ScrumMaster (CSM)", "issuer": "Scrum Alliance" },
+    { "name": "Certified Scrum Product Owner (CSPO)", "issuer": "Scrum Alliance" },
+    { "name": "Driver Licence (NZ Class 1)", "issuer": "NZTA" },
+    { "name": "Microsoft Technology Associate", "issuer": "Microsoft" }
+  ],
+
+  "industry_snapshot": [
+    "Technology/Software",
+    "Logistics/Supply Chain",
+    "Operations",
+    "Professional Services/Consulting"
+  ],
+
+  "ats_keywords_by_capability": {
+    "requirements": ["requirements", "user stories", "acceptance criteria", "assumptions", "specifications"],
+    "workshops": ["stakeholder workshops", "facilitation", "discovery", "WIPs"],
+    "process_mapping": ["process mapping", "SOPs", "as-is/to-be", "standardisation"],
+    "uat_testing": ["UAT", "test support", "release notes", "impact assessment"],
+    "reporting_insights": ["reporting", "dashboards", "Excel", "Power BI", "Looker Studio", "data visualisation"],
+    "delivery_cadence": ["Scrum", "cadence", "backlog", "Jira", "Confluence"],
+    "documentation": ["plain-language communications", "documentation", "playbooks", "how-to guides"],
+    "governance": ["data definitions", "guardrails", "change communications", "policy alignment"],
+    "implementation_no_code": ["AppSheet", "no-code", "automation"],
+    "presentation_storytelling": ["PowerPoint", "storytelling", "visual communication", "executive summaries"],
+    "bau_support": ["incident triage", "BAU queues", "reproduction steps", "workarounds"],
+    "accessibility_plain_language": ["accessibility", "plain language", "inclusive communication"],
+    "vendor_sla_coordination": ["vendor coordination", "SLA", "handoffs", "service delivery"]
+  },
+
+  "writing_controls": {
+    "tense": "past",
+    "allow_approximations": true,
+    "approx_examples": ["~50%", "80%+"],
+    "bullet_length_guideline_words": 30
+  },
+
+  "metadata": {
+    "version": "1.0.0",
+    "purpose": "Source of truth for generating bespoke resumes and cover letters.",
+    "last_updated": "2025-09-18"
+  }
+}
