@@ -24,6 +24,7 @@ I’m building a lightweight workflow to generate **targeted resumes and cover l
 3. **Generate first drafts**: a one-page resume variant and a cover-letter body (plain text/markup).
 4. **Human pass**: I review, rewrite, and decide what to keep—nothing ships without my edits.
 5. **Export**: I use the HTML templates and print to PDF so links stay clickable.
+6. **Evaluate**: I track my applications in a Google Sheet (to log responses, industry, companies, pay bands, interview dates, outcome etc.). I can ask the LLM about my application history directly from the interface.
 
 > I originally kept work history in JSON but moved to **XML** because it’s easier for me to edit and more explicit for LLMs to parse.
 
@@ -48,6 +49,9 @@ I’m building a lightweight workflow to generate **targeted resumes and cover l
 
 - This MVP follows my process flow: fit assessment, gap spotting, drafting, and final review/export.
 - I drew on prior ATS experience to keep outputs competitive yet honest.
+
+## Roadmap
+- For future iterations, I plan on implementing a Google Apps Sheet web scraper within my Google Sheets 'Application Tracker', to allow for bulk resume & cover letter creation, and remove pain points with manual data entry bottlenecks.  
 
 ## Contact data configuration
 As I intend to make this project a public repo, I need to ensure that I do not expose PII to the entire Internet
