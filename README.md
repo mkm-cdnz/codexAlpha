@@ -48,3 +48,19 @@ I’m building a lightweight workflow to generate **targeted resumes and cover l
 
 - This MVP follows my process flow: fit assessment, gap spotting, drafting, and final review/export.
 - I drew on prior ATS experience to keep outputs competitive yet honest.
+
+## Contact data configuration
+
+- Sensitive contact fields inside `work_history_v_1_0_1.xml` use `env:` placeholders (for example, `env:CONTACT_EMAIL`) instead of storing the literal values in Git.
+- When a generator or other tool needs to output a resume or cover letter, resolve each placeholder by reading the environment variable named after the suffix (e.g., `CONTACT_EMAIL`).
+- Populate those environment variables through a secure channel such as your workstation keychain, a `.env` file that is excluded from source control, or a secrets manager/injected CI/CD variable.
+- Example `.env` snippet for local runs:
+
+  ```env
+  CONTACT_EMAIL="matt@example.com"
+  CONTACT_PHONE="+64 22 000 0000"
+  CONTACT_LINKEDIN="https://www.linkedin.com/in/example"
+  CONTACT_GITHUB="https://github.com/example"
+  ```
+
+- Do **not** commit the real values; ensure your tooling loads them at runtime before templating HTML/PDF outputs.
