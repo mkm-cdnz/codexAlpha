@@ -25,6 +25,8 @@ Tailoring applications takes time, different roles need different emphasis/keywo
 
 ## Process Flow
 ![A screenshot of process flow in MVP](images/ProcessFlowMVP.jpg)
+[Process flow on Miro](https://miro.com/app/board/uXjVJGAOjGw=/?share_link_id=19281139838)
+
 
 ## Guardrails & ethics (human-in-the-loop)
 - I keep myself **in the loop at every stage.** I always review, rewrite, and fact-check so the output reflects my voice and thinking. No automated slop for recruiters.
