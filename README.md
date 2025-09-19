@@ -50,6 +50,7 @@ I’m building a lightweight workflow to generate **targeted resumes and cover l
 - I drew on prior ATS experience to keep outputs competitive yet honest.
 
 ## Contact data configuration
+As I intend to make this project a public repo, I need to ensure that I do not expose PII to the entire Internet
 
 - Sensitive contact fields inside `work_history_v_1_0_1.xml` use `env:` placeholders (for example, `env:CONTACT_EMAIL`) instead of storing the literal values in Git.
 - When a generator or other tool needs to output a resume or cover letter, resolve each placeholder by reading the environment variable named after the suffix (e.g., `CONTACT_EMAIL`).
