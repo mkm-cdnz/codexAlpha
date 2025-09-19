@@ -4,10 +4,10 @@
     <name>Matt Millar</name>
     <headline>Technical Business Analyst | Data &amp; Insights</headline>
     <summary>Delivery-centric Technical BA who clarified needs, ran workshops, and turned requirements into tidy delivery and plain-English outcomes. Strong with Excel/Power BI and documentation; built depth in stakeholder comms and BAU support.</summary>
-    <links email="matt@mattmillar.co.nz"
-           phone="+64 22 459 6484"
-           linkedin="https://www.linkedin.com/in/matt-millar-3a4892121/"
-           github="https://github.com/mkm-cdnz/" />
+    <links email="env:CONTACT_EMAIL"
+           phone="env:CONTACT_PHONE"
+           linkedin="env:CONTACT_LINKEDIN"
+           github="env:CONTACT_GITHUB" />
   </profile>
 
   <work_history>
