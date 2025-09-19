@@ -24,7 +24,7 @@ I’m building a lightweight workflow to generate **targeted resumes and cover l
 3. **Generate first drafts**: a one-page resume variant and a cover-letter body (plain text/markup).
 4. **Human pass**: I review, rewrite, and decide what to keep—nothing ships without my edits.
 5. **Export**: I use the HTML templates and print to PDF so links stay clickable.
-6. **Evaluate**: I track my applications in a Google Sheet (to log responses, industry, companies, pay bands, interview dates, outcome etc.). I can ask the LLM about my application history directly from the interface.
+6. **Evaluate**: I track my applications in a Google Sheet (to log responses, industry, companies, pay bands, interview dates, outcome etc.). OpenAI's Google Drive connector means I can ask the LLM about my application history directly from the interface.
 
 > I originally kept work history in JSON but moved to **XML** because it’s easier for me to edit and more explicit for LLMs to parse.
 
