@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workProfile version="1.0.0">
+  <profile>
+    <name>Matt Millar</name>
+    <headline>Technical Business Analyst | Data &amp; Insights</headline>
+    <summary>Delivery-centric Technical BA who clarified needs, ran workshops, and turned requirements into tidy delivery and plain-English outcomes. Strong with Excel/Power BI and documentation; built depth in stakeholder comms and BAU support.</summary>
+    <links email="matt@mattmillar.co.nz"
+           phone="+64 22 459 6484"
+           linkedin="https://www.linkedin.com/in/matt-millar-3a4892121/"
+           github="https://github.com/mkm-cdnz/" />
+  </profile>
+
+  <work_history>
+    <employer company="Consulting / Freelance">
+      <employment start="2024-07" end="present"/>
+      <titles items="Technical Documentation, WordPress Consultant, Training/Workshops, Video Editor"/>
+      <bullets>
+        <bullet themes="requirements,documentation,process_mapping,stakeholder_comms">Turned high-level asks into concise specifications, SOPs, and how-to guides that reduced rework and accelerated delivery for small business and internal stakeholders.</bullet>
+        <bullet themes="workshops,training_enablement,presentation_storytelling,governance">Designed and led in-person and online workshops on generative AI opportunities, risks, and guardrails using Miro and Google Slides; improved understanding and practical adoption across mixed audiences.</bullet>
+        <bullet themes="creative_production,presentation_storytelling">Produced music video content and visual assets using Kdenlive; planned storyboards and executed edits to brief, ensuring clear narrative flow and on-brand delivery.</bullet>
+        <bullet themes="web_content,ux_content,seo_basics">Built and maintained WordPress sites including theme setup, UX/content structure, SEO basics, and CMS blog formatting to improve clarity and discoverability.</bullet>
+      </bullets>
+      <achievements>
+        <achievement themes="training_enablement,stakeholder_comms">Created a visually engaging GenAI training series with practical exercises and take-home guides; boosted confidence and safe adoption among non-technical staff.</achievement>
+      </achievements>
+      <skills_and_competencies items="Stakeholder interviews, Workshops &amp; facilitation, Requirements &amp; user stories, Process mapping / SOPs, Plain-language communications, UAT support, Presentation storytelling, Content design"/>
+      <tools_and_tech items="Miro, Google Slides, WordPress, Google Workspace, Kdenlive"/>
+      <industry_domains items="Technology/Software, Professional Services"/>
+    </employer>
+
+    <employer company="ClearPoint">
+      <employment start="2022-08" end="2024-06"/>
+      <titles items="Technical Business Analyst, Product Owner, Scrum Master, QA"/>
+      <bullets>
+        <bullet themes="requirements,workshops,delivery_cadence">Converted proposals into detailed specifications with user stories, acceptance criteria, and assumptions; aligned business and engineering through workshops and WIPs.</bullet>
+        <bullet themes="uat_testing,documentation,presentation_storytelling,stakeholder_comms">Maintained delivery hygiene in Jira/Confluence, supported UAT and test planning, and produced decision-ready updates and decks for non-technical stakeholders.</bullet>
+        <bullet themes="process_mapping,governance,stakeholder_comms">Facilitated an ATS transition by defining a single source of truth, aligning ownership, and mapping handoffs to reduce ambiguity and improve reporting.</bullet>
+        <bullet themes="process_mapping,workshops,vendor_sla_coordination">Mapped an end-to-end hiring flow in Miro across teams and systems; clarified roles, approvals, and SLAs to decrease rework and speed up onboarding decisions.</bullet>
+      </bullets>
+      <achievements/>
+      <skills_and_competencies items="Stakeholder facilitation, Requirements engineering, Backlog management, Delivery cadence (Scrum), UAT/test support, Documentation (Confluence), Change communications"/>
+      <tools_and_tech items="Jira, Confluence, PowerPoint, Miro"/>
+      <industry_domains items="Technology/Software, Consulting"/>
+    </employer>
+
+    <employer company="Enstall">
+      <employment start="2020-10" end="2022-07"/>
+      <titles items="Warehousing &amp; Logistics Officer"/>
+      <role_context team_size_approx="40" geographic_scope="Auckland and wider Auckland region"/>
+      <bullets>
+        <bullet themes="pick_pack_dispatch,inventory_management,stakeholder_comms">Led pick/pack/dispatch operations and vehicle loading for daily deliveries; coordinated sequencing so installers and drivers left on time with complete orders.</bullet>
+        <bullet themes="inventory_management,reporting_insights,stakeholder_comms">Tracked inventory movement and levels; produced weekly reports directly for the CFO with clear summaries, exceptions, and actions.</bullet>
+        <bullet themes="data_modeling_light,inventory_management,demand_supply_risk">Built product compatibility databases and substitution rules (COGS per m², volume/floorspace/truckspace constraints) to keep jobs moving during shortages.</bullet>
+        <bullet themes="implementation_no_code,barcode_qr,process_improvement,change_management">Designed and implemented a bespoke WMS/FMS in AppSheet + Google Sheets with barcode/QR scanning and real-time dashboards; replaced paper processes and standardised capture.</bullet>
+        <bullet themes="reporting_insights,data_visualisation,inventory_management">Created timestamped bay–SKU dashboards (Looker Studio/Sheets) to plan picks/putaway against the week’s jobs and optimise space and time on the floor.</bullet>
+        <bullet themes="supplier_relations,3pl_coordination,demand_supply_risk,change_management">Liaised with suppliers and 3PL partners through the 2021 Auckland COVID lockdowns and Suez Canal disruption; balanced established processes with change management to reduce stockouts and bottlenecks.</bullet>
+        <bullet themes="training_enablement,documentation,stakeholder_comms,governance">Trained drivers and staff on mobile vehicle logs and incident reporting; delivered handover to the CFO on data schemas and how to migrate toward a future COTS ERP/WMS/FMS.</bullet>
+        <bullet themes="health_safety,continuous_improvement">Encouraged a blameless safety culture; led toolbox talks for pedestrians in forklift zones and ran post-incident reviews to improve reporting and prevention.</bullet>
+      </bullets>
+      <achievements>
+        <achievement themes="process_improvement,reporting_insights,ops_impact">Reduced weekly reporting workload from nearly two full days (with overtime) to a single afternoon via automation and standardised data capture.</achievement>
+        <achievement themes="implementation_no_code,barcode_qr,ops_impact">No-code WMS/FMS with barcode/QR scanning and real-time dashboards → 80%+ reduction in time and errors across reporting and picking workflows.</achievement>
+        <achievement themes="demand_supply_risk,inventory_management,3pl_coordination">Maintained delivery continuity through 2021 disruptions with substitution logic and forward planning, minimising backorders and wasted truckspace.</achievement>
+      </achievements>
+      <skills_and_competencies items="Inventory management, Pick/pack/dispatch, Process mapping / SOPs, Reporting &amp; insight, Supplier &amp; 3PL coordination, Change management, Health &amp; Safety culture, Stakeholder communication, Training &amp; onboarding"/>
+      <tools_and_tech items="AppSheet, Google Sheets, Apps Script, Looker Studio (Google Data Studio), Power BI, Google Forms, Google Sites, Label/QR tools, Barcode scanners, Mobile devices, Teletrac Navman"/>
+      <industry_domains items="Logistics/Supply Chain, Operations, Construction/Building Materials"/>
+    </employer>
+  </work_history>
+
+  <skills>
+    <analytics_bi items="Excel (PivotTables, XLOOKUP), Power BI (Power Query, DAX – developing), Looker Studio"/>
+    <business_analysis_delivery items="Stakeholder interviews, Workshops &amp; facilitation, Requirements &amp; user stories, Process mapping / SOPs, UAT/test support, Plain-language communications, Delivery cadence (Scrum), Change communications"/>
+    <platforms_domains items="Jira, Confluence, HubSpot CRM, WMS/Inventory systems, Google Workspace, Microsoft 365"/>
+    <presentation_enablement items="PowerPoint (storytelling; strong), Miro (workshops), Google Slides, Kdenlive"/>
+    <no_code_low_code items="AppSheet, Airtable (familiar)"/>
+    <scripting_querying items="SQL (beginner→intermediate), Python (beginner)"/>
+  </skills>
+
+  <education>
+    <entry institution="Victoria University of Wellington" qualification="BA &amp; LLB (partial)" year="">
+      <focus_areas items="English Literature, Media Studies, Law"/>
+    </entry>
+    <entry institution="NPower Canada, Toronto" qualification="Web &amp; Mobile App Development" year="2016"/>
+  </education>
+
+  <certifications>
+    <cert name="Forklift certification (ASWEFA)" issuer="ASWEFA"/>
+    <cert name="Site Safe (Passport)" issuer="Site Safe"/>
+    <cert name="First Aid" issuer="Approved NZ Provider"/>
+    <cert name="COA / PSPLA Security" issuer="PSPLA"/>
+    <cert name="MPI Biosecurity" issuer="MPI"/>
+    <cert name="Certified ScrumMaster (CSM)" issuer="Scrum Alliance"/>
+    <cert name="Certified Scrum Product Owner (CSPO)" issuer="Scrum Alliance"/>
+    <cert name="Driver Licence (NZ Class 1)" issuer="NZTA"/>
+    <cert name="Microsoft Technology Associate" issuer="Microsoft"/>
+  </certifications>
+
+  <industry_snapshot items="Technology/Software, Logistics/Supply Chain, Operations, Professional Services/Consulting"/>
+
+  <ats_keywords_by_capability>
+    <capability name="requirements" items="requirements, user stories, acceptance criteria, assumptions, specifications"/>
+    <capability name="workshops" items="stakeholder workshops, facilitation, discovery, WIPs"/>
+    <capability name="process_mapping" items="process mapping, SOPs, as-is/to-be, standardisation"/>
+    <capability name="uat_testing" items="UAT, test support, release notes, impact assessment"/>
+    <capability name="reporting_insights" items="reporting, dashboards, Excel, Power BI, Looker Studio, data visualisation"/>
+    <capability name="delivery_cadence" items="Scrum, cadence, backlog, Jira, Confluence"/>
+    <capability name="documentation" items="plain-language communications, documentation, playbooks, how-to guides"/>
+    <capability name="governance" items="data definitions, guardrails, change communications, policy alignment"/>
+    <capability name="implementation_no_code" items="AppSheet, no-code, automation"/>
+    <capability name="presentation_storytelling" items="PowerPoint, storytelling, visual communication, executive summaries"/>
+    <capability name="bau_support" items="incident triage, BAU queues, reproduction steps, workarounds"/>
+    <capability name="accessibility_plain_language" items="accessibility, plain language, inclusive communication"/>
+    <capability name="vendor_sla_coordination" items="vendor coordination, SLA, handoffs, service delivery"/>
+    <capability name="inventory_management" items="inventory management, cycle counts, stock levels, stockouts, substitutions, bay locations"/>
+    <capability name="pick_pack_dispatch" items="picking, packing, dispatch, loading, route readiness"/>
+    <capability name="barcode_qr" items="barcode, QR scanning, label printing, scan validation"/>
+    <capability name="3pl_coordination" items="3PL, logistics partners, freight, warehouse partners"/>
+    <capability name="supplier_relations" items="supplier coordination, lead times, purchase alignment"/>
+    <capability name="demand_supply_risk" items="shortages, disruption, Suez Canal, COVID lockdowns, JIT breakdown"/>
+    <capability name="change_management" items="process change, adoption, training, handover"/>
+    <capability name="health_safety" items="forklift zones, toolbox talks, blameless post-mortems, hazard reporting"/>
+    <capability name="fleet_operations" items="fleet management, vehicle maintenance logs, telematics, Teletrac Navman"/>
+    <capability name="data_modeling_light" items="compatibility lists, COGS per m², volume constraints"/>
+  </ats_keywords_by_capability>
+
+  <writing_controls tense="past"
+                    allow_approximations="true"
+                    approx_examples="~50%, 80%+"
+                    bullet_length_guideline_words="30"/>
+
+  <metadata version="1.0.0"
+            purpose="Source of truth for generating bespoke resumes and cover letters."
+            last_updated="2025-09-18"/>
+</workProfile>
