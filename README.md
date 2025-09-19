@@ -6,6 +6,16 @@ I’m building a lightweight workflow to generate **targeted resumes and cover l
 
 Tailoring applications takes time, different roles need different emphasis/keywords, and squeezing everything into one page is hard. This MVP helps me assemble truthful, role-specific materials faster.
 
+### Pain Points
+
+- Takes a long time to tailor my resume & cover letter
+- Different industries and job titles require different emphasis and different keywords (e.g. logistics vs professional services vs creative)
+- Difficult to condense all of my skills/experience into a single page
+- My word processor (Google Docs) does not easily allow for columns, reorganization of layout, or inserting mailto links, leading to wasted whitespace and wasted time.
+
+### User Stories
+- As a job seeker, I want to automate the creation of bespoke resumes and cover letters that align with a given job description, so that I can target job postings with relevant factual information.
+
 ## How I use it (end-to-end)
 
 1. **Collect the JD** (title, company, key requirements).
