@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workProfile version="1.0.0">
+<workProfile version="1.0.1">
   <profile>
     <name>Matt Millar</name>
     <headline>Technical Business Analyst | Data &amp; Insights</headline>
@@ -252,7 +252,8 @@
                     approx_examples="~50%, 80%+"
                     bullet_length_guideline_words="30"/>
 
-  <metadata version="1.0.0"
+  <metadata version="1.0.1"
             purpose="Source of truth for generating bespoke resumes and cover letters."
             last_updated="2025-09-19"/>
 </workProfile>
+
