@@ -23,8 +23,8 @@ Tailoring applications takes time, different roles need different emphasis/keywo
 
 *(The repo is a work-in-progress; files and structure will evolve.)*
 
-## Quick start (my flow)
-...
+## Process Flow
+![A screenshot of process flow in MVP](images/Job Search GPT - Process Flow Diagram.jpg)
 
 ## Guardrails & ethics (human-in-the-loop)
 - I keep myself **in the loop at every stage.** I always review, rewrite, and fact-check so the output reflects my voice and thinking. No automated slop for recruiters.
