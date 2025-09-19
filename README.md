@@ -4,7 +4,8 @@ I’m building a lightweight workflow to generate **targeted resumes and cover l
 
 ## Why I’m doing this
 
-Tailoring applications takes time, different roles need different emphasis/keywords, and squeezing everything into one page is hard. This MVP helps me assemble truthful, role-specific materials faster.
+- Tailoring applications takes time, different roles need different emphasis/keywords, and squeezing everything into one page is hard. This MVP helps me assemble truthful, role-specific materials faster.
+- This forms part of a portfolio artifact to showcase BA thinking, documentation, and prompt design—not a finished product.
 
 ### Pain Points
 
