@@ -15,13 +15,43 @@
       <employment start="2024-07" end="present"/>
       <titles items="Technical Documentation, WordPress Consultant, Training/Workshops, Video Editor"/>
       <bullets>
-        <bullet themes="requirements,documentation,process_mapping,stakeholder_comms">Turned high-level asks into concise specifications, SOPs, and how-to guides that reduced rework and accelerated delivery for small business and internal stakeholders.</bullet>
-        <bullet themes="workshops,training_enablement,presentation_storytelling,governance">Designed and led in-person and online workshops on generative AI opportunities, risks, and guardrails using Miro and Google Slides; improved understanding and practical adoption across mixed audiences.</bullet>
-        <bullet themes="creative_production,presentation_storytelling">Produced music video content and visual assets using Kdenlive; planned storyboards and executed edits to brief, ensuring clear narrative flow and on-brand delivery.</bullet>
-        <bullet themes="web_content,ux_content,seo_basics">Built and maintained WordPress sites including theme setup, UX/content structure, SEO basics, and CMS blog formatting to improve clarity and discoverability.</bullet>
+        <bullet themes="requirements,documentation,process_mapping,stakeholder_comms">Turned high-level asks into concise specifications, SOPs, and how-to guides that reduced rework and accelerated delivery for small business and internal stakeholders.
+          <themes>
+            <theme name="requirements"/>
+            <theme name="documentation"/>
+            <theme name="process_mapping"/>
+            <theme name="stakeholder_comms"/>
+          </themes>
+        </bullet>
+        <bullet themes="workshops,training_enablement,presentation_storytelling,governance">Designed and led in-person and online workshops on generative AI opportunities, risks, and guardrails using Miro and Google Slides; improved understanding and practical adoption across mixed audiences.
+          <themes>
+            <theme name="workshops"/>
+            <theme name="training_enablement"/>
+            <theme name="presentation_storytelling"/>
+            <theme name="governance"/>
+          </themes>
+        </bullet>
+        <bullet themes="creative_production,presentation_storytelling">Produced music video content and visual assets using Kdenlive; planned storyboards and executed edits to brief, ensuring clear narrative flow and on-brand delivery.
+          <themes>
+            <theme name="creative_production"/>
+            <theme name="presentation_storytelling"/>
+          </themes>
+        </bullet>
+        <bullet themes="web_content,ux_content,seo_basics">Built and maintained WordPress sites including theme setup, UX/content structure, SEO basics, and CMS blog formatting to improve clarity and discoverability.
+          <themes>
+            <theme name="web_content"/>
+            <theme name="ux_content"/>
+            <theme name="seo_basics"/>
+          </themes>
+        </bullet>
       </bullets>
       <achievements>
-        <achievement themes="training_enablement,stakeholder_comms">Created a visually engaging GenAI training series with practical exercises and take-home guides; boosted confidence and safe adoption among non-technical staff.</achievement>
+        <achievement themes="training_enablement,stakeholder_comms">Created a visually engaging GenAI training series with practical exercises and take-home guides; boosted confidence and safe adoption among non-technical staff.
+          <themes>
+            <theme name="training_enablement"/>
+            <theme name="stakeholder_comms"/>
+          </themes>
+        </achievement>
       </achievements>
       <skills_and_competencies items="Stakeholder interviews, Workshops &amp; facilitation, Requirements &amp; user stories, Process mapping / SOPs, Plain-language communications, UAT support, Presentation storytelling, Content design"/>
       <tools_and_tech items="Miro, Google Slides, WordPress, Google Workspace, Kdenlive"/>
@@ -32,10 +62,35 @@
       <employment start="2022-08" end="2024-06"/>
       <titles items="Technical Business Analyst, Product Owner, Scrum Master, QA"/>
       <bullets>
-        <bullet themes="requirements,workshops,delivery_cadence">Converted proposals into detailed specifications with user stories, acceptance criteria, and assumptions; aligned business and engineering through workshops and WIPs.</bullet>
-        <bullet themes="uat_testing,documentation,presentation_storytelling,stakeholder_comms">Maintained delivery hygiene in Jira/Confluence, supported UAT and test planning, and produced decision-ready updates and decks for non-technical stakeholders.</bullet>
-        <bullet themes="process_mapping,governance,stakeholder_comms">Facilitated an ATS transition by defining a single source of truth, aligning ownership, and mapping handoffs to reduce ambiguity and improve reporting.</bullet>
-        <bullet themes="process_mapping,workshops,vendor_sla_coordination">Mapped an end-to-end hiring flow in Miro across teams and systems; clarified roles, approvals, and SLAs to decrease rework and speed up onboarding decisions.</bullet>
+        <bullet themes="requirements,workshops,delivery_cadence">Converted proposals into detailed specifications with user stories, acceptance criteria, and assumptions; aligned business and engineering through workshops and WIPs.
+          <themes>
+            <theme name="requirements"/>
+            <theme name="workshops"/>
+            <theme name="delivery_cadence"/>
+          </themes>
+        </bullet>
+        <bullet themes="uat_testing,documentation,presentation_storytelling,stakeholder_comms">Maintained delivery hygiene in Jira/Confluence, supported UAT and test planning, and produced decision-ready updates and decks for non-technical stakeholders.
+          <themes>
+            <theme name="uat_testing"/>
+            <theme name="documentation"/>
+            <theme name="presentation_storytelling"/>
+            <theme name="stakeholder_comms"/>
+          </themes>
+        </bullet>
+        <bullet themes="process_mapping,governance,stakeholder_comms">Facilitated an ATS transition by defining a single source of truth, aligning ownership, and mapping handoffs to reduce ambiguity and improve reporting.
+          <themes>
+            <theme name="process_mapping"/>
+            <theme name="governance"/>
+            <theme name="stakeholder_comms"/>
+          </themes>
+        </bullet>
+        <bullet themes="process_mapping,workshops,vendor_sla_coordination">Mapped an end-to-end hiring flow in Miro across teams and systems; clarified roles, approvals, and SLAs to decrease rework and speed up onboarding decisions.
+          <themes>
+            <theme name="process_mapping"/>
+            <theme name="workshops"/>
+            <theme name="vendor_sla_coordination"/>
+          </themes>
+        </bullet>
       </bullets>
       <achievements/>
       <skills_and_competencies items="Stakeholder facilitation, Requirements engineering, Backlog management, Delivery cadence (Scrum), UAT/test support, Documentation (Confluence), Change communications"/>
@@ -48,19 +103,87 @@
       <titles items="Warehousing &amp; Logistics Officer"/>
       <role_context team_size_approx="40" geographic_scope="Auckland and wider Auckland region"/>
       <bullets>
-        <bullet themes="pick_pack_dispatch,inventory_management,stakeholder_comms">Led pick/pack/dispatch operations and vehicle loading for daily deliveries; coordinated sequencing so installers and drivers left on time with complete orders.</bullet>
-        <bullet themes="inventory_management,reporting_insights,stakeholder_comms">Tracked inventory movement and levels; produced weekly reports directly for the CFO with clear summaries, exceptions, and actions.</bullet>
-        <bullet themes="data_modeling_light,inventory_management,demand_supply_risk">Built product compatibility databases and substitution rules (COGS per m², volume/floorspace/truckspace constraints) to keep jobs moving during shortages.</bullet>
-        <bullet themes="implementation_no_code,barcode_qr,process_improvement,change_management">Designed and implemented a bespoke WMS/FMS in AppSheet + Google Sheets with barcode/QR scanning and real-time dashboards; replaced paper processes and standardised capture.</bullet>
-        <bullet themes="reporting_insights,data_visualisation,inventory_management">Created timestamped bay–SKU dashboards (Looker Studio/Sheets) to plan picks/putaway against the week’s jobs and optimise space and time on the floor.</bullet>
-        <bullet themes="supplier_relations,3pl_coordination,demand_supply_risk,change_management">Liaised with suppliers and 3PL partners through the 2021 Auckland COVID lockdowns and Suez Canal disruption; balanced established processes with change management to reduce stockouts and bottlenecks.</bullet>
-        <bullet themes="training_enablement,documentation,stakeholder_comms,governance">Trained drivers and staff on mobile vehicle logs and incident reporting; delivered handover to the CFO on data schemas and how to migrate toward a future COTS ERP/WMS/FMS.</bullet>
-        <bullet themes="health_safety,continuous_improvement">Encouraged a blameless safety culture; led toolbox talks for pedestrians in forklift zones and ran post-incident reviews to improve reporting and prevention.</bullet>
+        <bullet themes="pick_pack_dispatch,inventory_management,stakeholder_comms">Led pick/pack/dispatch operations and vehicle loading for daily deliveries; coordinated sequencing so installers and drivers left on time with complete orders.
+          <themes>
+            <theme name="pick_pack_dispatch"/>
+            <theme name="inventory_management"/>
+            <theme name="stakeholder_comms"/>
+          </themes>
+        </bullet>
+        <bullet themes="inventory_management,reporting_insights,stakeholder_comms">Tracked inventory movement and levels; produced weekly reports directly for the CFO with clear summaries, exceptions, and actions.
+          <themes>
+            <theme name="inventory_management"/>
+            <theme name="reporting_insights"/>
+            <theme name="stakeholder_comms"/>
+          </themes>
+        </bullet>
+        <bullet themes="data_modeling_light,inventory_management,demand_supply_risk">Built product compatibility databases and substitution rules (COGS per m², volume/floorspace/truckspace constraints) to keep jobs moving during shortages.
+          <themes>
+            <theme name="data_modeling_light"/>
+            <theme name="inventory_management"/>
+            <theme name="demand_supply_risk"/>
+          </themes>
+        </bullet>
+        <bullet themes="implementation_no_code,barcode_qr,process_improvement,change_management">Designed and implemented a bespoke WMS/FMS in AppSheet + Google Sheets with barcode/QR scanning and real-time dashboards; replaced paper processes and standardised capture.
+          <themes>
+            <theme name="implementation_no_code"/>
+            <theme name="barcode_qr"/>
+            <theme name="process_improvement"/>
+            <theme name="change_management"/>
+          </themes>
+        </bullet>
+        <bullet themes="reporting_insights,data_visualisation,inventory_management">Created timestamped bay–SKU dashboards (Looker Studio/Sheets) to plan picks/putaway against the week’s jobs and optimise space and time on the floor.
+          <themes>
+            <theme name="reporting_insights"/>
+            <theme name="data_visualisation"/>
+            <theme name="inventory_management"/>
+          </themes>
+        </bullet>
+        <bullet themes="supplier_relations,3pl_coordination,demand_supply_risk,change_management">Liaised with suppliers and 3PL partners through the 2021 Auckland COVID lockdowns and Suez Canal disruption; balanced established processes with change management to reduce stockouts and bottlenecks.
+          <themes>
+            <theme name="supplier_relations"/>
+            <theme name="3pl_coordination"/>
+            <theme name="demand_supply_risk"/>
+            <theme name="change_management"/>
+          </themes>
+        </bullet>
+        <bullet themes="training_enablement,documentation,stakeholder_comms,governance">Trained drivers and staff on mobile vehicle logs and incident reporting; delivered handover to the CFO on data schemas and how to migrate toward a future COTS ERP/WMS/FMS.
+          <themes>
+            <theme name="training_enablement"/>
+            <theme name="documentation"/>
+            <theme name="stakeholder_comms"/>
+            <theme name="governance"/>
+          </themes>
+        </bullet>
+        <bullet themes="health_safety,continuous_improvement">Encouraged a blameless safety culture; led toolbox talks for pedestrians in forklift zones and ran post-incident reviews to improve reporting and prevention.
+          <themes>
+            <theme name="health_safety"/>
+            <theme name="continuous_improvement"/>
+          </themes>
+        </bullet>
       </bullets>
       <achievements>
-        <achievement themes="process_improvement,reporting_insights,ops_impact">Reduced weekly reporting workload from nearly two full days (with overtime) to a single afternoon via automation and standardised data capture.</achievement>
-        <achievement themes="implementation_no_code,barcode_qr,ops_impact">No-code WMS/FMS with barcode/QR scanning and real-time dashboards → 80%+ reduction in time and errors across reporting and picking workflows.</achievement>
-        <achievement themes="demand_supply_risk,inventory_management,3pl_coordination">Maintained delivery continuity through 2021 disruptions with substitution logic and forward planning, minimising backorders and wasted truckspace.</achievement>
+        <achievement themes="process_improvement,reporting_insights,ops_impact">Reduced weekly reporting workload from nearly two full days (with overtime) to a single afternoon via automation and standardised data capture.
+          <themes>
+            <theme name="process_improvement"/>
+            <theme name="reporting_insights"/>
+            <theme name="ops_impact"/>
+          </themes>
+        </achievement>
+        <achievement themes="implementation_no_code,barcode_qr,ops_impact">No-code WMS/FMS with barcode/QR scanning and real-time dashboards → 80%+ reduction in time and errors across reporting and picking workflows.
+          <themes>
+            <theme name="implementation_no_code"/>
+            <theme name="barcode_qr"/>
+            <theme name="ops_impact"/>
+          </themes>
+        </achievement>
+        <achievement themes="demand_supply_risk,inventory_management,3pl_coordination">Maintained delivery continuity through 2021 disruptions with substitution logic and forward planning, minimising backorders and wasted truckspace.
+          <themes>
+            <theme name="demand_supply_risk"/>
+            <theme name="inventory_management"/>
+            <theme name="3pl_coordination"/>
+          </themes>
+        </achievement>
       </achievements>
       <skills_and_competencies items="Inventory management, Pick/pack/dispatch, Process mapping / SOPs, Reporting &amp; insight, Supplier &amp; 3PL coordination, Change management, Health &amp; Safety culture, Stakeholder communication, Training &amp; onboarding"/>
       <tools_and_tech items="AppSheet, Google Sheets, Apps Script, Looker Studio (Google Data Studio), Power BI, Google Forms, Google Sites, Label/QR tools, Barcode scanners, Mobile devices, Teletrac Navman"/>
@@ -131,5 +254,5 @@
 
   <metadata version="1.0.0"
             purpose="Source of truth for generating bespoke resumes and cover letters."
-            last_updated="2025-09-18"/>
+            last_updated="2025-09-19"/>
 </workProfile>
