@@ -49,6 +49,7 @@ I’m building a lightweight workflow to generate **targeted resumes and cover l
 
 - This MVP follows my process flow: fit assessment, gap spotting, drafting, and final review/export.
 - I drew on prior ATS experience to keep outputs competitive yet honest.
+- See [ROADMAP.md](ROADMAP.md) for forward-looking themes and planned enhancements.
 
 ## Roadmap
 - For future iterations, I plan on implementing a Google Apps Sheet web scraper within my Google Sheets 'Application Tracker', to allow for bulk resume & cover letter creation, and remove pain points with manual data entry bottlenecks.  
