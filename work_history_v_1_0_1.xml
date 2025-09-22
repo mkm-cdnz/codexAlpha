@@ -3,7 +3,7 @@
   <profile>
     <name>Matt Millar</name>
     <headline>Technical Business Analyst | Data &amp; Insights</headline>
-    <summary>Delivery-centric Technical BA who clarified needs, ran workshops, and turned requirements into tidy delivery and plain-English outcomes. Strong with Excel/Power BI and documentation; built depth in stakeholder comms and BAU support.</summary>
+    <summary>Delivery-centric Technical BA who pairs discovery and delivery chops with prompt-engineering workflows across Claude Opus, GPT-5, OpenAI Codex, DeepSeek, and local Llama models to compress analysis and build cycles. Keeps stakeholders looped in with plain-English updates while turning requirements into time-saving automation and decision-ready outputs.</summary>
     <links email="env:CONTACT_EMAIL"
            phone="env:CONTACT_PHONE"
            linkedin="env:CONTACT_LINKEDIN"
@@ -21,6 +21,14 @@
             <theme name="documentation"/>
             <theme name="process_mapping"/>
             <theme name="stakeholder_comms"/>
+          </themes>
+        </bullet>
+        <bullet themes="ai_prompt_engineering,automation,client_delivery,time_savings">Codified reusable LLM prompt libraries and lightweight automation scripts with Claude Opus, GPT-5, DeepSeek, and local Llama models to fast-track keyword extraction, qualitative coding, and prototype Python/JS helpers so clients could turn deliverables around faster.
+          <themes>
+            <theme name="ai_prompt_engineering"/>
+            <theme name="automation"/>
+            <theme name="client_delivery"/>
+            <theme name="time_savings"/>
           </themes>
         </bullet>
         <bullet themes="workshops,training_enablement,presentation_storytelling,governance">Designed and led in-person and online workshops on generative AI opportunities, risks, and guardrails using Miro and Google Slides; improved understanding and practical adoption across mixed audiences.
@@ -54,7 +62,7 @@
         </achievement>
       </achievements>
       <skills_and_competencies items="Stakeholder interviews, Workshops &amp; facilitation, Requirements &amp; user stories, Process mapping / SOPs, Plain-language communications, UAT support, Presentation storytelling, Content design"/>
-      <tools_and_tech items="Miro, Google Slides, WordPress, Google Workspace, Kdenlive"/>
+      <tools_and_tech items="Claude Opus, GPT-5, OpenAI Codex, DeepSeek, Llama (local), Miro, Google Slides, WordPress, Google Workspace, Kdenlive"/>
       <industry_domains items="Technology/Software, Professional Services"/>
     </employer>
 
@@ -77,6 +85,14 @@
             <theme name="stakeholder_comms"/>
           </themes>
         </bullet>
+        <bullet themes="ai_prompt_engineering,analysis_insights,automation,time_savings">Automated competitor analysis by chaining keyword clustering and summarisation prompts across Claude Opus, GPT-5, and OpenAI Codex, shrinking a three-day review cycle into a four-hour insight pack and freeing time for deeper recommendations.
+          <themes>
+            <theme name="ai_prompt_engineering"/>
+            <theme name="analysis_insights"/>
+            <theme name="automation"/>
+            <theme name="time_savings"/>
+          </themes>
+        </bullet>
         <bullet themes="process_mapping,governance,stakeholder_comms">Facilitated an ATS transition by defining a single source of truth, aligning ownership, and mapping handoffs to reduce ambiguity and improve reporting.
           <themes>
             <theme name="process_mapping"/>
@@ -92,7 +108,15 @@
           </themes>
         </bullet>
       </bullets>
-      <achievements/>
+      <achievements>
+        <achievement themes="ai_prompt_engineering,automation,time_savings">Turned ClearPoint's competitor-analysis workflow from a three-day manual trawl into a four-hour AI-assisted cycle, enabling same-week synthesis and recommendations.
+          <themes>
+            <theme name="ai_prompt_engineering"/>
+            <theme name="automation"/>
+            <theme name="time_savings"/>
+          </themes>
+        </achievement>
+      </achievements>
       <skills_and_competencies items="Stakeholder facilitation, Requirements engineering, Backlog management, Delivery cadence (Scrum), UAT/test support, Documentation (Confluence), Change communications"/>
       <tools_and_tech items="Jira, Confluence, PowerPoint, Miro"/>
       <industry_domains items="Technology/Software, Consulting"/>
@@ -192,6 +216,7 @@
   </work_history>
 
   <skills>
+    <ai_prompt_engineering items="Prompt design &amp; testing, Claude Opus, GPT-5, OpenAI Codex, DeepSeek, Llama (local), Prompt libraries &amp; guardrails, Keyword extraction &amp; qualitative coding automations"/>
     <analytics_bi items="Excel (PivotTables, XLOOKUP), Power BI (Power Query, DAX – developing), Looker Studio"/>
     <business_analysis_delivery items="Stakeholder interviews, Workshops &amp; facilitation, Requirements &amp; user stories, Process mapping / SOPs, UAT/test support, Plain-language communications, Delivery cadence (Scrum), Change communications"/>
     <platforms_domains items="Jira, Confluence, HubSpot CRM, WMS/Inventory systems, Google Workspace, Microsoft 365"/>
@@ -231,6 +256,7 @@
     <capability name="documentation" items="plain-language communications, documentation, playbooks, how-to guides"/>
     <capability name="governance" items="data definitions, guardrails, change communications, policy alignment"/>
     <capability name="implementation_no_code" items="AppSheet, no-code, automation"/>
+    <capability name="ai_prompt_engineering" items="prompt engineering, prompt libraries, Claude Opus, GPT-5, OpenAI Codex, DeepSeek, Llama, automation, summarisation, keyword extraction"/>
     <capability name="presentation_storytelling" items="PowerPoint, storytelling, visual communication, executive summaries"/>
     <capability name="bau_support" items="incident triage, BAU queues, reproduction steps, workarounds"/>
     <capability name="accessibility_plain_language" items="accessibility, plain language, inclusive communication"/>
@@ -254,6 +280,6 @@
 
   <metadata version="1.0.1"
             purpose="Source of truth for generating bespoke resumes and cover letters."
-            last_updated="2025-09-19"/>
+            last_updated="2025-09-22"/>
 </workProfile>
 
