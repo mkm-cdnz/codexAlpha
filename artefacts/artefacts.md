@@ -1,6 +1,7 @@
 # Template Artefacts
-* Artefacts are formatted as HTML
+* Artefacts are formatted as HTML documents, with embedded CSS
 * HTML allows the system to edit content, layout, and formatting as prompted
+* CSS allows for easy changes to style, colour, font, etc.
 * for future proofing, artefacts are ready for online display, and incorporate **responsive design**
 * Templates use {{variables}} to allow the system to input correct information in the correct place
 * Templates ensure consistency in branding
