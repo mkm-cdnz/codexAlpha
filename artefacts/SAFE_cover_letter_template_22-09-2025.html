@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cover Letter - Matt Millar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        @page {
+            margin: 0.5in;
+            size: A4;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 11px;
+            line-height: 1.5;
+            color: #333;
+            background: white;
+            max-width: 210mm;
+            min-height: 297mm;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header Design */
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 20px 24px;
+            border-radius: 8px;
+            position: relative;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(to right, #3498db, #2980b9);
+        }
+
+        .header::after {
+            content: '';
+            position: absolute;
+            bottom: -20px;
+            right: -20px;
+            width: 80px;
+            height: 80px;
+            background: rgba(52, 152, 219, 0.1);
+            border-radius: 50%;
+        }
+
+        .header-content {
+            position: relative;
+            z-index: 2;
+        }
+
+        .name {
+            font-size: 24px;
+            font-weight: 700;
+            margin-bottom: 4px;
+            letter-spacing: 0.5px;
+        }
+
+        .title {
+            font-size: 13px;
+            color: #3498db;
+            font-weight: 500;
+            margin-bottom: 12px;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            font-size: 10px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+        }
+
+        .contact-item::before {
+            content: '•';
+            color: #3498db;
+            margin-right: 6px;
+            font-weight: bold;
+        }
+
+        .contact-item:first-child::before {
+            display: none;
+        }
+
+        .contact-item a {
+            color: inherit;
+            text-decoration: none;
+            transition: color 0.2s ease;
+        }
+
+        .contact-item a:hover {
+            color: #3498db;
+        }
+
+        /* Date and Reference Line */
+        .meta-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 8px 0;
+            border-bottom: 1px solid #ecf0f1;
+            font-size: 10px;
+            color: #7f8c8d;
+        }
+
+        .date {
+            font-weight: 500;
+        }
+
+        .reference {
+            font-style: italic;
+        }
+
+        /* Main Content */
+        .content {
+            flex: 1;
+        }
+
+        .application-title {
+            font-size: 16px;
+            font-weight: 700;
+            color: #2c3e50;
+            margin-bottom: 8px;
+            position: relative;
+        }
+
+        .application-title::after {
+            content: '';
+            position: absolute;
+            bottom: -3px;
+            left: 0;
+            width: 40px;
+            height: 2px;
+            background: linear-gradient(to right, #3498db, #2980b9);
+        }
+
+        .salutation {
+            font-size: 12px;
+            margin: 16px 0 12px 0;
+            color: #34495e;
+        }
+
+        .paragraph {
+            margin-bottom: 12px;
+            text-align: justify;
+            line-height: 1.6;
+        }
+
+        .bullet-section {
+            margin: 12px 0;
+        }
+
+        .bullet-list {
+            list-style: none;
+            margin-left: 0;
+            margin-bottom: 12px;
+        }
+
+        .bullet-list li {
+            margin-bottom: 6px;
+            padding-left: 16px;
+            position: relative;
+            line-height: 1.5;
+        }
+
+        .bullet-list li::before {
+            content: '▸';
+            color: #3498db;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        .closing {
+            margin-top: 16px;
+        }
+
+        .signature {
+            margin-top: 12px;
+        }
+
+        .signature-name {
+            font-weight: 700;
+            color: #2c3e50;
+        }
+
+        .postscript {
+            margin-top: 16px;
+            padding-top: 12px;
+            border-top: 1px solid #ecf0f1;
+            font-size: 10px;
+            color: #7f8c8d;
+            font-style: italic;
+        }
+
+        /* Accent boxes for special content */
+        .highlight-box {
+            background: #f8f9fa;
+            border-left: 3px solid #3498db;
+            padding: 10px 12px;
+            margin: 12px 0;
+            border-radius: 0 4px 4px 0;
+        }
+
+        /* Responsive adjustments */
+        @media screen and (max-width: 768px) {
+            body {
+                padding: 16px;
+            }
+            
+            .contact-info {
+                flex-direction: column;
+                gap: 8px;
+            }
+            
+            .meta-info {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 4px;
+            }
+        }
+
+        /* Print optimizations */
+        @media print {
+            body {
+                -webkit-print-color-adjust: exact;
+                print-color-adjust: exact;
+            }
+            
+            .header::after {
+                display: none;
+            }
+        }
+
+        /* Template Variables Styling */
+        .template-var {
+            color: #e74c3c;
+            font-weight: 600;
+            background: rgba(231, 76, 60, 0.1);
+            padding: 1px 3px;
+            border-radius: 2px;
+        }
+
+        /* Flexible content sections */
+        .optional-section {
+            display: block;
+        }
+
+        .optional-section.hidden {
+            display: none;
+        }
+
+        /* Variable height handling */
+        .content-section {
+            min-height: 0;
+            flex-grow: 1;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-content">
+            <div class="name">Matt Millar</div>
+            <div class="title">Technical Business Analyst | Data &amp; Insights</div>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <a href="mailto:CONTACT_EMAIL">CONTACT_EMAIL</a>
+                </div>
+                <div class="contact-item">
+                    <a href="tel:CONTACT_PHONE_E164">CONTACT_PHONE_HUMAN</a>
+                </div>
+                <div class="contact-item">
+                    Auckland, New Zealand
+                </div>
+                <div class="contact-item">
+                    <a href="CONTACT_LINKEDIN" target="_blank">CONTACT_LINKEDIN_DISPLAY</a>
+                </div>
+                <div class="contact-item">
+                    <a href="CONTACT_GITHUB" target="_blank">CONTACT_GITHUB_DISPLAY</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Meta Information -->
+    <div class="meta-info">
+        <div class="date">{{DATE}}</div>
+        <div class="reference">{{REFERENCE_LINE}}</div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="content">
+        <h1 class="application-title">Application: {{ROLE_TITLE}} - {{LOCATION}}</h1>
+        
+        <div class="salutation">{{SALUTATION}},</div>
+
+        <!-- Opening Paragraph -->
+        <div class="paragraph">{{OPENING_PARAGRAPH}}</div>
+
+        <!-- Optional Bullet Points Section -->
+        <div class="bullet-section optional-section" id="bullet-section">
+            <ul class="bullet-list">
+                <li>{{BULLET_POINT_1}}</li>
+                <li>{{BULLET_POINT_2}}</li>
+                <li>{{BULLET_POINT_3}}</li>
+                <li>{{BULLET_POINT_4}}</li>
+                <li>{{BULLET_POINT_5}}</li>
+            </ul>
+        </div>
+
+        <!-- Middle Paragraphs -->
+        <div class="paragraph">{{FIT_PARAGRAPH}}</div>
+        
+        <div class="paragraph optional-section" id="additional-paragraph">{{ADDITIONAL_PARAGRAPH}}</div>
+
+        <!-- Optional Highlight Box for Key Achievement -->
+        <div class="highlight-box optional-section" id="highlight-section">
+            {{HIGHLIGHT_CONTENT}}
+        </div>
+
+        <!-- Closing Paragraph -->
+        <div class="paragraph">{{CLOSING_PARAGRAPH}}</div>
+
+        <!-- Signature -->
+        <div class="closing">
+            <div class="paragraph">{{SIGN_OFF}}</div>
+            <div class="signature">
+                <div class="signature-name">Matt Millar</div>
+            </div>
+        </div>
+
+        <!-- Optional Postscript -->
+        <div class="postscript optional-section" id="postscript">
+            <strong>P.S.</strong> {{POSTSCRIPT_CONTENT}}
+        </div>
+    </main>
+</body>
+</html>
