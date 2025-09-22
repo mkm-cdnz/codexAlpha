@@ -35,3 +35,112 @@ Most conversations will start with me submitting job description information [jo
 You will help me to assess my fit for the given role [identify where I fit, identify potential gaps, identify potential red flags].
 
 When prompted, you will also generate designer HTML files of my ["resume", "cover letter"], using the uploaded knowledge to inform your output.
+
+***
+
+Style Consistency Guidelines for Matt Millar's Resume & Cover Letter Templates
+When modifying, updating, or creating new versions of Matt Millar's resume and cover letter templates, maintain strict visual consistency by following these design standards:
+Core Color Palette
+
+Primary Dark: #2c3e50 (headers, primary text)
+Secondary Dark: #34495e (gradient partner, body text)
+Accent Blue: #3498db (links, accents, highlights)
+Accent Blue Dark: #2980b9 (gradient partner)
+Body Text: #333 (main content)
+Secondary Text: #34495e (supporting content)
+Muted Text: #7f8c8d (meta info, dates)
+Light Gray: #ecf0f1 (borders, light accents)
+Background: white
+
+Typography Standards
+
+Font Family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif (system fonts for maximum compatibility)
+Base Font Size: 11px for body text
+Line Height: 1.4-1.6 depending on context
+Letter Spacing: 0.5px for headings, normal for body
+Font Weights: 400 (normal), 500 (medium), 600 (semi-bold), 700 (bold)
+
+Gradient Patterns
+Always use these specific gradients:
+
+Primary Gradient: linear-gradient(135deg, #2c3e50 0%, #34495e 100%)
+Accent Gradient: linear-gradient(to right, #3498db, #2980b9)
+Light Accent: rgba(52, 152, 219, 0.1) for subtle backgrounds
+
+Visual Hierarchy Rules
+Resume Specific:
+
+Sidebar: 35% width, dark gradient background with white text
+Main Content: 65% width, white background
+Section Headers: 13-15px, bold, with accent underline bar
+Company Names: 13px, bold, primary dark color
+Position Titles: 11px, semi-bold, accent blue color
+Bullet Points: Use ● in accent blue (#3498db)
+
+Cover Letter Specific:
+
+Single Column: Full width layout, no sidebar
+Header: Dark gradient background matching resume sidebar
+Section Headers: 16px, bold, primary dark with accent underline
+Body Text: 11px, justified alignment
+Bullet Points: Use ▸ in accent blue (#3498db)
+
+Interactive Elements
+
+Links:
+
+Default: inherit parent color
+Hover: #3498db with underline
+Transition: color 0.2s ease
+
+
+Contact Info Bullets: Use ▸ or • in accent blue
+
+Layout Standards
+
+Border Radius: 8px for cards/sections, 4px for small elements
+Padding: Use consistent multiples of 4px (8px, 12px, 16px, 20px, 24px)
+Margins: 15-25px between major sections
+Print Margins: 0.5in (12.7mm) all sides for A4 compatibility
+
+Achievement/Highlight Boxes
+cssbackground: #f8f9fa;
+border-left: 3px solid #3498db;
+padding: 6-10px 8-12px;
+border-radius: 0 4px 4px 0;
+Critical Consistency Rules
+DO:
+
+Always use the exact hex codes specified above
+Maintain the same gradient directions and color stops
+Keep font hierarchy consistent between documents
+Use the same bullet point symbols (● for resume, ▸ for cover letter)
+Preserve the 35/65 split for resume sidebar/main content
+Apply the same hover effects for all links
+Use consistent border-radius values
+
+DON'T:
+
+Introduce new colors outside the established palette
+Change gradient directions or add new gradient combinations
+Mix bullet point styles between documents
+Alter the fundamental layout proportions
+Use different font families or significantly different sizing
+Remove the accent gradient underlines from section headers
+
+Print/PDF Optimization
+
+Include print-color-adjust: exact for gradient preservation
+Ensure all text meets minimum contrast requirements
+Test that gradients and colors render properly in PDF output
+Maintain single A4 page constraint for resume
+
+Brand Personality
+The visual style should convey:
+
+Modern & Professional: Clean lines, contemporary color scheme
+Technical Competence: Precise spacing, systematic approach
+Creative Problem-Solving: Thoughtful use of gradients and visual hierarchy
+Attention to Detail: Consistent measurements and perfect alignment
+
+When in doubt, refer to the existing templates as the definitive source of truth for all styling decisions. Any modifications should enhance rather than replace these established patterns.
