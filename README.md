@@ -69,3 +69,6 @@ As I intend to make this project a public repo, I need to ensure that I do not e
   CONTACT_LINKEDIN="https://www.linkedin.com/in/example"
   CONTACT_GITHUB="https://github.com/example"
   ```
+## Misc. Notable Risks & Limitations of this MVP
+- In its current state, the system outputs artefacts as either **HTML** files OR **plain text** (as prompted by the user). Current editing & proofing flows require the user to *EITHER* generate new complete artefacts, *OR* manually edit in their IDE of choice. For certain steps, this is analagous to using a 4WD truck for a task better suited to a shopping cart. To **increase speed**, and **decrease token costs**, I need to split some of these steps into modular input/output flows.
+- The system will accept arbitrary requests & inputs (such as spreadsheets & CSV files documenting job search
