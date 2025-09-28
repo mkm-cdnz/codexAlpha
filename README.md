@@ -2,6 +2,11 @@
 
 I’m building a lightweight workflow to generate **targeted resumes and cover letters** from a single source of truth (XML + HTML templates with Internal CSS). I keep content in GitHub so I can version changes, print to PDF with clickable links, and interact directly with my custom GPT.
 
+### tl;dr: example output artefacts
+Using the system, I was able to create PDF documents for the fictional role _Robot Babysitter @ Baby Robots Inc_.
+- [Cover Letter - MKM-CDNZ.pdf](https://github.com/mkm-cdnz/codexAlpha/blob/main/images/Cover%20Letter%20-%20MKM-CDNZ.pdf)
+- [MKM-CDNZ - Resume - Robot Babysitter.pdf](https://github.com/mkm-cdnz/codexAlpha/blob/main/images/MKM-CDNZ%20-%20Resume%20-%20Robot%20Babysitter.pdf)
+
 ## Why I’m doing this
 
 - Tailoring applications takes time, different roles need different emphasis/keywords, and squeezing everything I've done into one page is hard. This MVP helps me assemble truthful, role-specific materials faster.
