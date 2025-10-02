@@ -1,4 +1,4 @@
-# Targeting Job Applications with LLMs (MVP)
+# Targeting Audiences with LLMs (MVP)
 
 I’m building a lightweight workflow to generate **targeted resumes and cover letters** from a single source of truth (XML + HTML templates with Internal CSS). I keep content in GitHub so I can version changes, print to PDF with clickable links, and interact directly with my custom GPT.
 
