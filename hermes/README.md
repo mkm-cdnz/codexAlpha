@@ -1,7 +1,25 @@
 # Job Search POC for Hermes
 
-Status: authored workflow specification; not yet installed or integration-tested on Nitro.
+Status: installed and indexed on Nitro; Google integration testing is blocked on Hermes OAuth.
 These are Hermes skills, not a ChatGPT plugin. Install only after identifying the local Hermes version, active profile and supported integration tools. Skills provide procedures; authenticated tools perform Gmail/Drive/Sheets operations.
+
+## Validate and install
+
+Run the repository validator first:
+
+```text
+python hermes/scripts/validate_poc.py
+```
+
+To install into a specific Hermes home without guessing profile paths:
+
+```text
+python hermes/scripts/validate_poc.py --install --hermes-home PATH_TO_HERMES_HOME
+```
+
+Installation is deliberately non-destructive. It refuses to replace an existing
+skill directory unless `--force` is supplied. Start a new Hermes session after
+installation because the skill index is cached per session.
 
 ## Setup order
 1. In the existing Hermes chat, request a read-only diagnostic: version, OS/runtime, active profile, available Google/GitHub tools, authenticated account identity, scheduler availability. Do not reveal tokens, environment values, email bodies or credential files.
@@ -39,3 +57,12 @@ E. Pipeline feedback and measured, reversible improvements.
 
 ## Current limitations
 No Google workbook has been created by this repository addition. No account is connected, no schedule is activated, no live job search has run, and no application is submitted. Local installation and full end-to-end validation are required.
+
+## Nitro diagnostic snapshot (2026-10-05)
+
+- Dashboard reachable at `127.0.0.1:9119`; Hermes `0.21.5+6642` on Windows 11.
+- Gateway starts successfully after an explicit restart.
+- `google-workspace` skill `1.2.0` is installed and enabled.
+- Google Workspace check returns `NOT_AUTHENTICATED`; OAuth must be completed in Hermes before mailbox, Drive or Sheets tests.
+- No MCP servers are configured. Google access for this POC should use the bundled `google-workspace` skill, not an invented MCP server.
+- Host pressure is material: roughly 3.5 GB disk free and more than 90% memory in use during the diagnostic. Free space before any update or large document migration.

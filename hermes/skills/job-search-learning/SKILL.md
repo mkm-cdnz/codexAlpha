@@ -1,12 +1,27 @@
 ---
 name: job-search-learning
-description: Improve job recommendations using reviewed pipeline feedback.
+description: Improve job ranking from reviewed outcomes.
 version: 0.1.0
+author: Matt Millar, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [jobs, feedback, experiments, ranking]
+    related_skills: [google-workspace]
 ---
 # Job Search Learning
 
+This skill proposes reversible ranking and workflow improvements from reviewed
+feedback. It does not silently change career facts, preferences or policy.
+
 ## When to Use
 Use after shortlist feedback, document revisions, pipeline outcomes or a requested periodic review.
+
+## Prerequisites
+- Load `job-search-control` and its data model before reading feedback or recording an experiment.
+- Load the installed `google-workspace` skill and verify access to the canonical workbook.
+- Require Matt's review before activating a proposed preference, policy or prompt change.
 
 ## Procedure
 1. Read Feedback, PipelineEvents, Assessments, Artifacts and current confirmed Preferences. The durable workbook is the learning record; conversational memory is supplementary.

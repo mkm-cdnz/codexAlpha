@@ -1,12 +1,28 @@
 ---
 name: job-application
-description: Assess roles and draft evidence-based branded applications.
+description: Assess roles and draft grounded applications.
 version: 0.1.0
+author: Matt Millar, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [jobs, applications, cover-letters, evidence]
+    related_skills: [google-workspace]
 ---
 # Job Application
 
+This skill assesses a role against confirmed evidence and drafts application
+material for review. It does not send messages, complete forms or submit an
+application.
+
 ## When to Use
 Use when Matt provides a JD, title and employer, selects a shortlisted role, or requests a CV/cover letter revision.
+
+## Prerequisites
+- Load `job-search-control`, its data model and the current confirmed profile facts before making personal claims.
+- Load the installed `google-workspace` skill before reading private Drive or Sheets sources.
+- Resolve and read the canonical V2 brand specification before describing output as brand-validated.
 
 ## Procedure
 1. Load current confirmed profile facts, preferences and source-linked job requirements. Persist the supplied JD and reuse an existing job ID where matched.

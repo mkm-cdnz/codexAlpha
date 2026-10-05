@@ -1,12 +1,28 @@
 ---
 name: job-search-control
-description: Set up and maintain a Google Sheets job-search system.
+description: Maintain a source-grounded job-search workbook.
 version: 0.1.0
+author: Matt Millar, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [jobs, google-sheets, workflow, migration]
+    related_skills: [google-workspace]
 ---
 # Job Search Control
 
+This is the controlling skill for Matt Millar's private job-search workflow. It
+coordinates the other job-search skills and uses Google Sheets as the durable
+record; it does not authorize sending messages or submitting applications.
+
 ## When to Use
 Use for setup, migration, profile correction, pipeline maintenance or routing job-search work.
+
+## Prerequisites
+- Load the installed `google-workspace` skill and confirm its authentication check returns `AUTHENTICATED` before reading or writing private Google data.
+- Read `references/data-model.md` in full before the first workbook write in a session.
+- Resolve the active Hermes profile and private configuration without printing credentials or email bodies.
 
 ## Procedure
 1. Read private settings and references/data-model.md before any write. Verify the active Google account and exact workbook IDs. The original tracker is a migration source.

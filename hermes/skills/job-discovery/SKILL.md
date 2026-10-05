@@ -1,12 +1,27 @@
 ---
 name: job-discovery
-description: Turn job emails into an explained, deduplicated shortlist.
+description: Build an explained, deduplicated job shortlist.
 version: 0.1.0
+author: Matt Millar, Hermes Agent
+license: MIT
+platforms: [linux, macos, windows]
+metadata:
+  hermes:
+    tags: [jobs, email, ranking, deduplication]
+    related_skills: [google-workspace]
 ---
 # Job Discovery
 
+This skill converts job-related mail into reviewable opportunities. It keeps
+source provenance and user decisions separate and never sends or modifies mail.
+
 ## When to Use
 Use for the first mailbox import, daily shortlist refresh, or manual opportunity search.
+
+## Prerequisites
+- Load `job-search-control` and read its data model before processing messages.
+- Load the installed `google-workspace` skill and verify the authenticated Gmail identity exactly matches the configured mailbox.
+- Keep Gmail access read-only for the POC; do not mark messages read, label, archive, delete, reply or send.
 
 ## Procedure
 1. Load job-search-control and its data model; read current Settings, Preferences and confirmed ProfileFacts. Verify mailbox identity. Use read-only email access for this POC.
