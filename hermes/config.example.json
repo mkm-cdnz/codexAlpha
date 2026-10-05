@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "mailbox": "SET_PRIVATELY",
+  "legacy_tracker_id": "SET_PRIVATELY",
+  "workbook_id": "SET_AFTER_CREATION",
+  "job_hunt_folder_id": "SET_PRIVATELY",
+  "brand_folder_id": "SET_PRIVATELY",
+  "brand_spec_id": "SET_PRIVATELY",
+  "brand_guide_id": "SET_PRIVATELY",
+  "timezone": "Pacific/Auckland",
+  "initial_lookback_days": 30,
+  "daily_time_local": null,
+  "run_cost_limit": null,
+  "salary": {
+    "currency": "NZD",
+    "minimum_guideline": 80000,
+    "target_guideline": 90000,
+    "hard_exclusion": false
+  },
+  "location": {
+    "preferred": "Auckland",
+    "remote": true,
+    "status": "provisional"
+  },
+  "send_messages": false,
+  "submit_applications": false
+}
